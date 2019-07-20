@@ -7,7 +7,6 @@
     $result = array();
     foreach ($list_string as $s) {
        if (strpos($kalimat, $s) !== false) {
-           echo $s." ";
            array_push($checklist,$s);
        }
      }
