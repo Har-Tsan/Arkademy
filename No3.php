@@ -28,8 +28,13 @@
      }
      return $result;
   }
-
+  //input
   $kalimat = 'programmerit';
+  
   $result = splitstring($kalimat);
-  print_r($result);
+  foreach($result as $r) {
+      $str = implode (", ", $r);
+      echo $str."<br>";
+    }
+//  print_r($result);
 ?>
